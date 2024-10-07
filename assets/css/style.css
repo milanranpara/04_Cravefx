@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.bg-purple {
+    background-color: #5D327A;
+}
+
+.bg-pink {
+    background-color: #FE586F;
+}
+
+/* header section start */
+header {
+    background-color: #101C3A;
+}
+
+header #home {
+    color: #FE586F;
+}
+
+header ul li .nav-link {
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+header ul li .nav-link:hover {
+    color: #FE586F;
+}
+
+header .btn {
+    color: #47c907;
+}
+
+header .btn:hover {
+    color: #4ba31f;
+}
+
+/* header section end */
+/* banner section start */
+main {
+    background: url('../img/background\ heart.jpg') no-repeat scroll;
+    background-size: cover;
+    background-position: center;
+    height: 470px;
+}
+
+main .row h1 {
+    font-size: 57px;
+    font-weight: 400;
+}
+
+main .row .nav-pills .nav-link {
+    background-color: #513271;
+    margin: 0px 5px;
+    padding: 7px 15px;
+    color: white;
+}
+
+main .row .nav-pills .nav-link.active {
+    background-color: #e40a27;
+    border-radius: 0px;
+}
+
+/* banner section end */
+/* fun section start */
+#fun {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/back.jpg) no-repeat;
+    background-size: cover;
+    height: 400px;
+    margin-top: 50px;
+    background-position: center;
+}
+
+#fun .row .box {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+/* fun section end */
+/*
